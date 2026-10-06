@@ -12,3 +12,5 @@ desktop.ini
 # Logs and environment
 *.log
 .env
+push_to_github.bat
+
