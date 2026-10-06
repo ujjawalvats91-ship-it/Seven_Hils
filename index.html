@@ -6,47 +6,35 @@
 <title>Seven Hills Wai — Private Villa Plots</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- ===================== HERO ===================== -->
 <section class="sh-hero" aria-labelledby="sh-title">
-  <svg class="sh-contour" viewBox="0 0 400 400" aria-hidden="true">
-    <ellipse cx="200" cy="200" rx="190" ry="150"/><ellipse cx="200" cy="200" rx="160" ry="124"/>
-    <ellipse cx="200" cy="200" rx="130" ry="98"/><ellipse cx="200" cy="200" rx="100" ry="73"/>
-    <ellipse cx="200" cy="200" rx="70" ry="49"/><ellipse cx="200" cy="200" rx="40" ry="26"/>
+  <!-- Replace src with your hero photo (villas on the hill). Overlay darkness: .sh-hero::before in style.css -->
+  <img class="sh-bg" src="https://sevenhillwai.com/wp-content/uploads/2025/11/blog-image-.3-scaled.png" alt="" fetchpriority="high" decoding="async">
+
+  <svg class="sh-stamp" viewBox="0 0 120 120" role="img" aria-label="RERA approved">
+    <defs><path id="stamp-ring" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs>
+    <circle cx="60" cy="60" r="56" fill="none" stroke="#fff" stroke-width="2"/>
+    <circle cx="60" cy="60" r="35" fill="none" stroke="#fff" stroke-width="1.2"/>
+    <text font-size="9.5" font-weight="700" letter-spacing="2" fill="#fff"><textPath href="#stamp-ring">RERA APPROVED · P52700011037 ·</textPath></text>
+    <text x="60" y="58" text-anchor="middle" font-size="17" font-weight="800" fill="#fff">RERA</text>
+    <text x="60" y="73" text-anchor="middle" font-size="8" font-weight="700" letter-spacing="1.6" fill="#fff">APPROVED</text>
   </svg>
+
   <div class="sh-wrap">
-    <p class="sh-eyebrow">RERA No. P52700011037 · Wai, Maharashtra</p>
-    <h1 id="sh-title">Own A Home Where Silence Is <span>Greatest Luxury.</span></h1>
-
-    <dl class="sh-brief">
-      <div><dt>What</dt><dd><b>NA villa plots from 1,625 sq.ft</b> in a private 40-acre hill community in Wai, with 30+ lifestyle amenities. From ₹28 lakhs.</dd></div>
-      <div><dt>For</dt><dd><b>Buyers who want a private home away from the city,</b> 2.5 hrs from Pune.</dd></div>
-      <div><dt>Why</dt><dd><b>Silence and space, by design.</b> Plots follow the hill's contour, Vastu-planned, inside a gated campus.</dd></div>
-      <div><dt>Next</dt><dd>
-        <a class="sh-cta" href="#apply">Apply for Private Ownership
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <small>Share your details. Our team confirms plot availability and a site visit.</small>
-      </dd></div>
-    </dl>
-
+    <h1 id="sh-title">Own A Home Where <em>Silence</em> Is The <em>Greatest Luxury.</em></h1>
+    <p class="sh-sub">Own an exclusive villa plot in a private 40 acre hill community. Indulge in 30+ custom lifestyle amenities, starting from ₹28 Lakhs.</p>
+    <a class="sh-cta" href="#apply">Apply for Private Ownership
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
     <div class="sh-stats">
-      <div class="sh-stat">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20l6-10 4 6 3-4 5 8z"/></svg>
-        <strong>40 Acres</strong><span>Total estate area</span>
-      </div>
-      <div class="sh-stat">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.5 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg>
-        <strong>30+</strong><span>Lifestyle amenities</span>
-      </div>
-      <div class="sh-stat">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20l5-9 4 6 4-8 7 11z"/></svg>
-        <strong>7 Hills</strong><span>Across the estate</span>
-      </div>
+      <div class="sh-stat"><strong>40 Acres</strong><span>Total estate area</span></div>
+      <div class="sh-stat"><strong>RERA</strong><span>Registered P52700011037</span></div>
+      <div class="sh-stat"><strong>NA Villa Plots</strong><span>1,625 sq.ft onwards</span></div>
     </div>
   </div>
 </section>
@@ -160,21 +148,21 @@
       <g fill="none" stroke="#0B3B26" stroke-width="1.6" stroke-dasharray="4 5" stroke-linecap="round" stroke-opacity=".55">
         <path d="M195 215 Q140 150 70 100"/>
         <path d="M195 215 Q252 190 270 145"/>
-        <path d="M195 215 Q150 252 85 275"/>
+        <path d="M195 215 Q140 265 70 300"/>
         <path d="M195 215 Q252 245 280 270"/>
       </g>
       <!-- destinations -->
       <circle cx="70" cy="100" r="8" fill="#0B3B26"/><circle cx="70" cy="100" r="3" fill="#fff"/>
-      <text x="84" y="98" class="cn-name">Mumbai</text><text x="84" y="116" class="cn-time">4–5 hrs</text>
+      <text x="86" y="72" class="cn-name">Mumbai</text><text x="86" y="91" class="cn-time">4–5 hrs</text>
       <circle cx="270" cy="145" r="8" fill="#0B3B26"/><circle cx="270" cy="145" r="3" fill="#fff"/>
       <text x="284" y="143" class="cn-name">Pune</text><text x="284" y="161" class="cn-time">2.5 hrs</text>
-      <circle cx="85" cy="275" r="8" fill="#0B3B26"/><circle cx="85" cy="275" r="3" fill="#fff"/>
-      <text x="99" y="273" class="cn-name">Panchgani</text><text x="99" y="291" class="cn-time">45 mins</text>
+      <circle cx="70" cy="300" r="8" fill="#0B3B26"/><circle cx="70" cy="300" r="3" fill="#fff"/>
+      <text x="86" y="298" class="cn-name">Panchgani</text><text x="86" y="317" class="cn-time">45 mins</text>
       <circle cx="280" cy="270" r="8" fill="#0B3B26"/><circle cx="280" cy="270" r="3" fill="#fff"/>
-      <text x="280" y="298" text-anchor="middle" class="cn-name">Mahabaleshwar</text><text x="280" y="316" text-anchor="middle" class="cn-time">1.5 hrs</text>
+      <text x="280" y="300" text-anchor="middle" class="cn-name">Mahabaleshwar</text><text x="280" y="319" text-anchor="middle" class="cn-time">1.5 hrs</text>
       <!-- Seven Hill Wai -->
-      <rect x="128" y="236" width="134" height="26" rx="0" fill="#fff"/>
-      <text x="195" y="254" text-anchor="middle" class="cn-name">Seven Hill Wai</text>
+      <rect x="120" y="234" width="150" height="30" rx="0" fill="#fff"/>
+      <text x="195" y="255" text-anchor="middle" class="cn-name">Seven Hill Wai</text>
       <circle cx="195" cy="215" r="17" fill="#0B3B26"/>
       <path d="M184 224l8-12 5 6 4-5 7 11z" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>
       <!-- landscape -->
@@ -215,8 +203,41 @@
     <details name="sh-faq"><summary>How do I book a site visit?<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="fq-a">Tap “Apply for Private Ownership” and share your details. Our team will confirm a visit slot with you.</div></details>
   </div>
 </section>
+<!-- ================= APPLY ================= -->
+<section class="sh-apply" id="apply" aria-labelledby="ap-title">
+  <h2 id="ap-title">Get <span>Project</span> Details</h2>
+  <p class="in-sub">Share your details. Our team confirms plot availability and a site visit.</p>
+
+  <!-- Webhook + Meta settings live in config.js. Edit the dropdown options below to match your inventory. -->
+  <form class="ap-form" id="apply-form" method="post">
+    <input class="ap-hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label>Name<input type="text" name="name" placeholder="Your name" autocomplete="name" required></label>
+    <label>Phone number<input type="tel" name="phone" placeholder="10-digit mobile number" autocomplete="tel" inputmode="tel"
+      pattern="^(\+91[\s-]?)?[6-9][0-9]{9}$" title="Enter a 10-digit Indian mobile number" required></label>
+    <label>City<input type="text" name="city" placeholder="Your city" autocomplete="address-level2" required></label>
+    <label>Preferred plot size<select name="plot_size" required><option value="" disabled selected>Select plot size</option><option>1,625 – 2,000 sq.ft</option><option>2,000 – 3,000 sq.ft</option><option>3,000 sq.ft and above</option></select></label>
+    <label>Purpose of buying<select name="purpose" required><option value="" disabled selected>Select an option</option><option>Personal home</option><option>Weekend home</option><option>Investment</option></select></label>
+    <label>What attracts you most?<select name="attracts" required><option value="" disabled selected>Select an option</option><option>Hill views and nature</option><option>Location and connectivity</option><option>Amenities</option><option>Vastu-planned layout</option><option>Price</option></select></label>
+    <label>Select your discussion time<select name="discussion_time" required><option value="" disabled selected>Select time</option><option>Morning, 9 am – 12 pm</option><option>Afternoon, 12 – 4 pm</option><option>Evening, 4 – 8 pm</option></select></label>
+    <button class="sh-cta" type="submit"><span>Apply for Private Ownership</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+    <p class="ap-status" role="status" aria-live="polite"></p>
+    <p class="ap-legal">By applying you agree to be contacted about Seven Hills. RERA No. P52700011037 · Wai, Maharashtra</p>
+  </form>
+</section>
+
+<!-- ================= STICKY APPLY BAR ================= -->
+<div class="sh-bar" inert>
+  <p><small>Villa plots from</small><b>₹28 lakhs</b></p>
+  <a class="sh-cta" href="#apply">Apply Now
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+</div>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Where is Seven Hills located?", "acceptedAnswer": {"@type": "Answer", "text": "Seven Hills is a private 40-acre hill community in Wai, Maharashtra, on NH-48. Pune is about 2.5 hrs away, Mumbai 4–5 hrs, Mahabaleshwar 1.5 hrs and Panchgani 45 mins."}}, {"@type": "Question", "name": "What plot sizes are available?", "acceptedAnswer": {"@type": "Answer", "text": "NA villa plots start from 1,625 sq.ft, with prices starting from ₹28 lakhs. Apply for private ownership and our team will share current plot availability."}}, {"@type": "Question", "name": "Is Seven Hills RERA registered?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Seven Hills is registered under RERA, No. P52700011037."}}, {"@type": "Question", "name": "Are the plots 7/12 ready and eligible for bank loans?", "acceptedAnswer": {"@type": "Answer", "text": "These are NA (non-agricultural) villa plots. Share your details and our team will walk you through the 7/12 extract and bank loan eligibility for your chosen plot."}}, {"@type": "Question", "name": "What amenities does Seven Hills have?", "acceptedAnswer": {"@type": "Answer", "text": "30+ lifestyle amenities across the 40-acre campus, including a horse riding arena, 360° rooftop restro bar, hill view gym, athlete swimming pool and theme-based garden."}}, {"@type": "Question", "name": "How do I book a site visit?", "acceptedAnswer": {"@type": "Answer", "text": "Tap “Apply for Private Ownership” and share your details. Our team will confirm a visit slot with you."}}]}</script>
 
+<script src="config.js" defer></script>
+<script src="tracking.js" defer></script>
 <script src="script.js" defer></script>
 </body>
 </html>
